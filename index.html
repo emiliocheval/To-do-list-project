@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo App</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="todo-app">
-            <h2>To-Do List</h2>
-            <div class="row">
-                <input type="text" id="input-box" placeholder="Add your text">
-                <button id="addButton">Add</button>
-            </div>
-            <ul id="list-container"></ul>
+      <div class="todo-app">
+        <h2>To-Do List</h2>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add your text" />
+          <button id="addButton">Add</button>
         </div>
+        <ul id="list-container"></ul>
+      </div>
+    </div>
+
+    <div id="customModal" class="custom-modal">
+      <div class="custom-modal-content">
+        <span class="custom-modal-close">&times;</span>
+        <p id="custom-modal-message"></p>
+      </div>
     </div>
 
     <script src="script.js"></script>
-
-</body>
+  </body>
 </html>
